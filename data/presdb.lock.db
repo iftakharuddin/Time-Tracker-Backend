@@ -1,0 +1,6 @@
+#FileLock
+#Sun Jan 18 18:00:42 BDT 2026
+hostName=192.168.1.154
+id=19bd0fa97326470177b3e03d5881be76a44850c4b59
+method=file
+server=192.168.1.154\:58626

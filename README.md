@@ -15,7 +15,6 @@ The backend is built as a **RESTful API** using **Spring Boot**, **H2 database**
 - [Database](#database)
 - [REST API Endpoints](#rest-api-endpoints)
 - [Usage](#usage)
-- [Future Enhancements](#future-enhancements)
 
 ---
 
@@ -40,7 +39,7 @@ The backend is built as a **RESTful API** using **Spring Boot**, **H2 database**
 
 - **Language:** Java 17
 - **Framework:** Spring Boot
-- **Database:** H2 (in-memory and persisted)
+- **Database:** H2 (in-file and persisted)
 - **JPA:** Hibernate
 - **Build Tool:** Maven
 - **API Style:** RESTful
@@ -153,5 +152,6 @@ GET /api/time-entries/weekly?weekStart=2026-01-15
 
 ```http
 GET /api/time-entries/monthly?year=2026&month=1
+
 
 
